@@ -26,7 +26,11 @@ body{
 }
 
 .boom{
-    background-color: red;
+    background-image: url(../img/bomb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: white;
 }
 /* common */
 .center{

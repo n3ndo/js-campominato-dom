@@ -22,3 +22,4 @@ Al termine della partita il software deve comunicare il punteggio, cioè il nume
 5.2-Fare una seconda funzione in cui si dichiarare un array vuoto "bombs" dove con un for si va ad iterare all'interno dell'array per 16 volte la funzione per generare numeri casuali;
 5.3-Se si clicca su una casella in cui è presente una bomba allora il colore della casella diventa rosso;
 5.4-se si clicca su una casella in cui non è presente una bomba allora il colore della casella diventa azzurro;
+6-Aggiunto in javascript il contatore per i punti (collegato con l'html);

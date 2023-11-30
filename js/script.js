@@ -58,6 +58,7 @@ function createNewGame(){
             }
             else{
                 this.classList.add("boom");
+                
             }
         })
 
