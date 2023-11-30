@@ -10,3 +10,9 @@ Al termine della partita il software deve comunicare il punteggio, cioè il nume
 1-Creare in Html l'header che conterrà il Titolo della pagina e il pulsante "Gioca";
 1.2-Stilizzare l'header nel css;
 1.3-Creare il collegamento del pulsante nel file script;
+2-Creare in Html la griglia;
+3-Nello script dichiarare due funzioni:
+3.1-la prima per generare delle celle in cui si deve andare a dichiarare la costante "square";
+3.1.1-Dare delle misure a square nel CSS;
+3.2-la seconda per generare la griglia in sé, dove in un ciclo for si richiama la funzione per la creazione delle celle e si itera fino ad arrivare ad un numero pari a 100 cella per la griglia;
+3.2.1-Dare delle misure alla griglia in CSS;
