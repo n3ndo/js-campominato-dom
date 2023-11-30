@@ -41,7 +41,7 @@ function createNewGame(){
     let cells_numb = 100;
     let cells_row;
     const bombs = bombList(numOfBombs, cells_numb);
-
+    let points = 0;
 
     cells_row = Math.sqrt(cells_numb);
 
@@ -52,7 +52,9 @@ function createNewGame(){
             this.classList.add("safe");
             if(!bombs.includes(i)){
                 this.classList.add("safe");
-    
+                points++;
+
+                document.getElementById("punteggio").innerText = "Il tuo punteggio: " + points;
             }
             else{
                 this.classList.add("boom");
