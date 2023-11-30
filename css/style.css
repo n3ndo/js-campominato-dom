@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: darkgrey;
+}
+
+/* common */
+center{
+    align-items: center;
+    justify-content: center;
+}
+
+.jc-end{
+    justify-content: flex-end;
+}
