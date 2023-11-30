@@ -3,7 +3,8 @@ function createCell(num, cells_row){
     square.classList.add('square');
     square.innerText = num;
     square.style.width = `calc(100% / ${cells_row})`;
-    square.style.height = square.style.width
+    square.style.height = square.style.width;
+
     return square;
 }
 
@@ -18,6 +19,10 @@ function createNewGame(){
 
     for(let i=1; i<=cells_numb; i++){
         let cell = createCell(i, cells_row);
+
+        cell.addEventListener('click', function(){
+            this.classList.add("clicked");
+        })
 
         grid.appendChild(cell);
     }

@@ -20,6 +20,10 @@ body{
     border: 1px solid black;
     background-color: bisque;
 }
+
+.clicked{
+    background-color: azure;
+}
 /* common */
 .center{
     justify-content: center;
