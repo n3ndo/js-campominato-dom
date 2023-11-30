@@ -16,3 +16,9 @@ Al termine della partita il software deve comunicare il punteggio, cioè il nume
 3.1.1-Dare delle misure a square nel CSS;
 3.2-la seconda per generare la griglia in sé, dove in un ciclo for si richiama la funzione per la creazione delle celle e si itera fino ad arrivare ad un numero pari a 100 cella per la griglia;
 3.2.1-Dare delle misure alla griglia in CSS;
+4-Rendere le celle cliccabili (al click cambiano colore);
+5-Creare le bombe:
+5.1-Fare una prima funzione in cui vengono generati numeri casuali ma non ripetuti;
+5.2-Fare una seconda funzione in cui si dichiarare un array vuoto "bombs" dove con un for si va ad iterare all'interno dell'array per 16 volte la funzione per generare numeri casuali;
+5.3-Se si clicca su una casella in cui è presente una bomba allora il colore della casella diventa rosso;
+5.4-se si clicca su una casella in cui non è presente una bomba allora il colore della casella diventa azzurro;

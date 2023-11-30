@@ -21,8 +21,12 @@ body{
     background-color: bisque;
 }
 
-.clicked{
-    background-color: azure;
+.safe{
+    background-color: lightblue;
+}
+
+.boom{
+    background-color: red;
 }
 /* common */
 .center{
